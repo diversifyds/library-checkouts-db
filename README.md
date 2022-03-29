@@ -2,7 +2,9 @@
 
 
 ## Background
-The Library Checkouts Database is a fictitious and simulated SQLite database made for learning and practicing SQL.
+The Library Checkouts Database is a fictitious and simulated SQLite database made for learning and practicing SQL. 
+It's about users who sign up for an account in a library and checkout books.
+
 
 ### Table Definitions
 
@@ -79,7 +81,7 @@ Below are the data definitions of the tables and columns in the Library Checkout
     
 ## Distribution
 ### Packaged Release
-In the [latest release](https://github.com/diversifyds/library-checkouts-database/releases/latest), download the assets
+In the [latest release](https://github.com/diversifyds/library-checkouts-db/releases/latest), download the assets
 
 - __lcdb.db__: the SQLite database
 - __library-checkouts-erd.png__: the entity relationship diagram of the database
@@ -89,8 +91,6 @@ In the [latest release](https://github.com/diversifyds/library-checkouts-databas
 ## Documentation
 
 The database was created using R and Python files.
-Refer to each file in the `app` subdirectory for detailed documentation.
-
 
 `lcdb_ddl.sql`
 > A SQL script to create the database table definitions.
