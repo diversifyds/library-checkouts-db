@@ -1,16 +1,14 @@
 # Library Checkouts Database
 
-
 ## Background
 The Library Checkouts Database is a fictitious and simulated SQLite database made for learning and practicing SQL. 
-It's about users who sign up for an account in a library and checkout books.
-
+The database aims to model how and what a library keeps track of when lending materials. 
 
 ### Table Definitions
 
 Below are the data definitions of the tables and columns in the Library Checkouts Database.
 
-#### users: All users that have an account with the library
+#### users: All users that signed up for a library card with the library
 
 | column | description | data type |
 | :--- | :--- | :--- |
@@ -39,7 +37,7 @@ Below are the data definitions of the tables and columns in the Library Checkout
 | days\_checked\_out | number of days the book was checked out for | integer |
 | returned\_with\_damage | a number to distinguish whether the book was returned with damage<br>0 = the book was not returned with damage<br>1 = the book was returned with damage | integer |
 
-#### books: All the books in the library inventory system
+#### books: All the books in the library system
 
 | column | description | data type |
 | :--- | :--- | :--- |
