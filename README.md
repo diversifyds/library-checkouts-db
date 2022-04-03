@@ -2,7 +2,7 @@
 
 ## Background
 The Library Checkouts Database is a fictitious and simulated SQLite database made for learning and practicing SQL. 
-The database aims to model how and what a library keeps track of when lending materials. 
+The database aims to model how and what a library keeps track of when lending books. 
 
 ### Table Definitions
 
@@ -31,7 +31,7 @@ Below are the data definitions of the tables and columns in the Library Checkout
 | user_id | id of the user who checked out a book | integer |
 | book_id | id of the book that was checked out | integer |
 | checkout_date | date the book was checked out by the user | date |
-| days\_checking\_out | number of days the user will checkout the book | integer |
+| days\_checking\_out | number of days the user will check out the book for | integer |
 | due_date | date the book is due based off days\_checking\_out | date |
 | return_date | date the book was returned by the user | date |
 | days\_checked\_out | number of days the book was checked out for | integer |
